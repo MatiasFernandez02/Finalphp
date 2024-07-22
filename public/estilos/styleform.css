@@ -1,0 +1,108 @@
+body {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 400;
+}
+
+html, body, header, main, footer, section{
+    scroll-behavior: smooth;
+    
+}
+
+header, main, div {
+    font-size: 22px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+main {
+    margin-top: 140px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-fluid {
+    height: 70px;
+}
+
+.d-flex a svg {
+    margin-right: 10px;
+}
+
+.d-flex a:last-child svg {
+    margin-right: 0;
+}
+
+footer section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.logowpp{
+    background-color: transparent;
+}
+
+
+@media (max-width:576px) {
+    header, main, div {
+        font-size: 18px;
+    }
+
+    .container-fluid {
+        height: 40px;
+    }
+
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .navbar-toggler {
+        width: 26px;
+        height: 26px;
+        padding: 1px;
+    }
+    
+    .offcanvas {
+        max-width: 80%;
+    }
+
+    .d-flex a svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .d-flex a:last-child svg {
+        margin-right: 0;
+    }
+
+    form.bg-dark {
+        max-width: 96%; /* Ajusta el porcentaje según tu preferencia */
+        margin: auto; /* Centra el formulario horizontalmente */
+        padding: 10px; /* Añade un poco de espacio interior */
+    }
+
+    form.bg-dark .form-label,
+    form.bg-dark .form-control,
+    form.bg-dark .form-select,
+    form.bg-dark .btn {
+        font-size: 14px; /* Ajusta el tamaño de fuente para los elementos del formulario */
+        overflow-wrap: break-word;
+    }
+
+
+}

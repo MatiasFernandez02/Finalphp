@@ -1,0 +1,128 @@
+body {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 400;
+}
+
+html, body, header, main, footer, section{
+    scroll-behavior: smooth;
+    background-color: rgb(4, 5, 10)
+    
+}
+
+header, main, div {
+    font-size: 26px;
+}
+
+.main{
+    padding-top: 140px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-dark .navbar-toggler, .offcanvas .btn-close {
+    border: none; /* Quita el borde */
+    outline: none; /* Quita el contorno al enfocar */
+    box-shadow: none; /* Quita cualquier sombra */
+}
+
+.carousel {
+    margin-top: 140px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+.container-fluid {
+    height: 70px;
+}
+
+.d-flex a svg {
+    margin-right: 10px;
+}
+
+.d-flex a:last-child svg {
+    margin-right: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    background-color: #000;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.carousel-item img {
+    position: relative;
+    height: 800px;
+    width: auto;
+    display: block;
+    margin: 0;
+}
+
+
+
+footer section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegúrate de que tenga una z-index más alta que otros elementos si es necesario */
+}
+
+
+.logowpp{
+    background-color: transparent;
+}
+
+
+@media (max-width:576px) {
+    header, main, div {
+        font-size: 18px;
+    }
+
+    .container-fluid {
+        height: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler {
+        width: 26px;
+        height: 26px;
+        padding: 1px;
+    }
+    
+    .offcanvas {
+        max-width: 80%;
+    }
+
+    .carousel {
+        margin-top: 100px; /* Ajusta el margen superior para dispositivos móviles si es necesario */
+    }
+
+    .d-flex a svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .d-flex a:last-child svg {
+        margin-right: 0;
+    }
+
+    .carousel-item img {
+        position: relative;
+        height: 500px;
+        width: auto;
+        display: block;
+        margin: 0;
+    }
+
+
+}
